@@ -1,0 +1,25 @@
+name: CI-CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup .Net Core 3.1
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1
+      
+      - name: Restore Dependacies
+        run: dotnet Restore
+
+      - name: build App
+        run: dotnet build -c Release --no-restore
+
