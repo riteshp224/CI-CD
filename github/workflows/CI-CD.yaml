@@ -13,9 +13,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup .Net Core 3.1
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 3.1
+          dotnet-version: '3.1.x'
       
       - name: Restore Dependacies
         run: dotnet Restore
