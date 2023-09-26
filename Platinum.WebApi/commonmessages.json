@@ -1,0 +1,154 @@
+{
+  "CommonMessages": {
+    "Error": "Something went wrong!",
+    "Organization": {
+      "SaveSuccess": "Organization saved successfully.",
+      "SaveError": "Error occured while saving organization.",
+      "DeleteSuccess": "Organization deleted successfully.",
+      "DeleteError": "Error occured while deleting organization."
+    },
+    "TileMaster": {
+      "SaveSuccess": "TileMaster saved successfully.",
+      "SaveError": "Error occured while saving TileMaster.",
+      "DeleteSuccess": "TileMaster deleted successfully.",
+      "DeleteError": "Error occured while deleting TileMaster."
+    },
+    "OrganizationTile": {
+      "SaveSuccess": "OrganizationTile saved successfully.",
+      "SaveError": "Error occured while saving OrganizationTile.",
+      "DeleteSuccess": "OrganizationTile deleted successfully.",
+      "DeleteError": "Error occured while deleting OrganizationTile."
+    },
+    "ContentModule": {
+      "SaveSuccess": "ContentModule saved successfully.",
+      "SaveError": "Error occured while saving ContentModule.",
+      "DeleteSuccess": "ContentModule deleted successfully.",
+      "DeleteError": "Error occured while deleting ContentModule."
+    },
+    "OrgnaizationPage": {
+      "SaveSuccess": "OrgnaizationPage saved successfully.",
+      "SaveError": "Error occured while saving OrgnaizationPage.",
+      "DeleteSuccess": "OrgnaizationPage deleted successfully.",
+      "DeleteError": "Error occured while deleting OrgnaizationPage."
+    },
+    "JourneyMapper": {
+      "SaveSuccess": "Journey saved successfully.",
+      "SaveError": "Error occured while saving journey.",
+      "DeleteSuccess": "Journey deleted successfully.",
+      "DeleteError": "Error occured while deleting journey."
+    },
+    "CompanyWarehouse": {
+      "SaveSuccess": "Company warehouse saved successfully.",
+      "SaveError": "Error occured while saving company warehouse.",
+      "DeleteSuccess": "Company warehouse deleted successfully.",
+      "DeleteError": "Error occured while deleting company warehouse."
+    },
+    "Country": {
+      "SaveSuccess": "Country saved successfully.",
+      "SaveError": "Error occured while saving country.",
+      "DeleteSuccess": "Country deleted successfully.",
+      "DeleteError": "Error occured while deleting country."
+    },
+    "Menu": {
+      "SaveSuccess": "Menu saved successfully.",
+      "SaveError": "Error occured while saving menu.",
+      "DeleteSuccess": "Menu deleted successfully.",
+      "DeleteError": "Error occured while deleting menu."
+    },
+    "User": {
+      "SaveSuccess": "User saved successfully.",
+      "SaveError": "Error occured while saving user.",
+      "DeleteSuccess": "User deleted successfully.",
+      "DeleteError": "Error occured while deleting user."
+    },
+    "RoleRights": {
+      "SaveSuccess": "RoleRights saved successfully.",
+      "SaveError": "Error occured while saving rolerights.",
+      "DeleteSuccess": "RoleRights deleted successfully.",
+      "DeleteError": "Error occured while deleting rolerights."
+    },
+    "Role": {
+      "SaveSuccess": "Role saved successfully.",
+      "SaveError": "Error occured while saving role.",
+      "DeleteSuccess": "Role deleted successfully.",
+      "DeleteError": "Error occured while deleting role."
+    },
+    "ItemCategory": {
+      "SaveSuccess": "Item Category saved successfully.",
+      "SaveError": "Error occured while saving Item Category.",
+      "DeleteSuccess": "Item Category deleted successfully.",
+      "DeleteError": "Error occured while deleting Item Category.",
+      "AlreadyExists": "Item Category already Exist."
+    },
+    "Item": {
+      "SaveSuccess": "Item saved successfully.",
+      "SaveError": "Error occured while saving Item.",
+      "DeleteSuccess": "Item deleted successfully.",
+      "DeleteError": "Error occured while deleting Item.",
+      "AlreadyExists": "Item already Exist."
+    },
+    "UOM": {
+      "SaveSuccess": "UOM saved successfully.",
+      "SaveError": "Error occured while saving UOM.",
+      "DeleteSuccess": "UOM deleted successfully.",
+      "DeleteError": "Error occured while deleting UOM.",
+      "AlreadyExists": "UOM already Exist."
+    },
+    "Customer": {
+      "SaveSuccess": "Customer saved successfully.",
+      "SaveError": "Error occured while saving Customer.",
+      "DeleteSuccess": "Customer deleted successfully.",
+      "DeleteError": "Error occured while deleting Customer.",
+      "AlreadyExists": "Customer already Exist."
+    },
+    "ItemCollection": {
+      "SaveSuccess": "Item Collection saved successfully.",
+      "SaveError": "Error occured while saving Item Collection.",
+      "DeleteSuccess": "Item Collection deleted successfully.",
+      "DeleteError": "Error occured while deleting Item Collection.",
+      "AlreadyExists": "Item Collection already Exist."
+    },
+    "ItemCollectionDetail": {
+      "SaveSuccess": "Item Collection Detail saved successfully.",
+      "SaveError": "Error occured while saving Item Collection Detail.",
+      "DeleteSuccess": "Item Collection Detail deleted successfully.",
+      "DeleteError": "Error occured while deleting Item Collection Detail.",
+      "AlreadyExists": "Item Collection Detail already Exist."
+    },
+    "Quote": {
+      "SaveSuccess": "Quote saved successfully.",
+      "SaveError": "Error occured while saving Quote.",
+      "DeleteSuccess": "Quote deleted successfully.",
+      "DeleteError": "Error occured while deleting Quote.",
+      "AlreadyExists": "Quote already Exist."
+    },
+    "QuoteDetail": {
+      "SaveSuccess": "Quote Detail saved successfully.",
+      "SaveError": "Error occured while saving Quote Detail.",
+      "DeleteSuccess": "Quote Detail deleted successfully.",
+      "DeleteError": "Error occured while deleting Quote Detail.",
+      "AlreadyExists": "Quote Detail already Exist."
+    },
+    "ServiceType": {
+      "SaveSuccess": "Service Type saved successfully.",
+      "SaveError": "Error occured while saving Service Type.",
+      "DeleteSuccess": "Service Type deleted successfully.",
+      "DeleteError": "Error occured while deleting Service Type.",
+      "AlreadyExists": "Service Type already Exist."
+    },
+    "Enquiry": {
+      "SaveSuccess": "Enquiry saved successfully.",
+      "SaveError": "Error occured while saving Enquiry.",
+      "DeleteSuccess": "Enquiry deleted successfully.",
+      "DeleteError": "Error occured while deleting Enquiry.",
+      "AlreadyExists": "Enquiry already Exist."
+    },
+    "EnquiryDetail": {
+      "SaveSuccess": "Enquiry Detail saved successfully.",
+      "SaveError": "Error occured while saving Enquiry Detail.",
+      "DeleteSuccess": "Enquiry Detail deleted successfully.",
+      "DeleteError": "Error occured while deleting Enquiry Detail.",
+      "AlreadyExists": "Enquiry Detail already Exist."
+    }
+  }
+}
