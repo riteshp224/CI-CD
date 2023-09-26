@@ -20,5 +20,5 @@ jobs:
         run: dotnet Restore
 
       - name: build App
-        run: dotnet build -c Release --no-restore
+        run: dotnet build -c Release
 
