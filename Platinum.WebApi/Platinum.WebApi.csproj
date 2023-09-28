@@ -33,6 +33,12 @@
   <ItemGroup>
     <Folder Include="EmailTemplates\" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="SetParameters.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+</ItemGroup>
 
 
 </Project>
