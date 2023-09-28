@@ -1,3 +1,3 @@
 <parameters>
-    <setParameter name="IIS Web Application Name" value="Site/Platinum" />
+    <setParameter name="IIS Web Application Name" value="Sites/Platinum" />
 </parameters>
