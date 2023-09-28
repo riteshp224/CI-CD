@@ -65,7 +65,7 @@ namespace Platinum.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                string st = _commonMessages.CreateCommonMessage("GetRoleList", ex.ToString());
+                string st = _commonMessages.CreateCommonMessage("GetRoleList1", ex.ToString());
                 _logger.Information(st.ToString());
                 response.Success = false;
                 response.Message = _commonMessages.Error;
