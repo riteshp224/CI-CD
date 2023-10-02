@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platinum.Common", "Platinum.Common\Platinum.Common.csproj", "{A23A1356-6F47-4D53-ACAF-BFBBA28B2C9D}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platinum.Service", "Platinum.Service\Platinum.Service.csproj", "{ECCA51AE-14B4-4A62-AF07-371DFC3464A2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platinum.WebApi", "Platinum.WebApi\Platinum.WebApi.csproj", "{4CEB4383-0C65-41BE-A1E2-31DA342C1F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTesting", "NUnitTesting\NUnitTesting.csproj", "{E2163974-D78D-4757-A96D-CB58DFA0B95A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4CEB4383-0C65-41BE-A1E2-31DA342C1F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CEB4383-0C65-41BE-A1E2-31DA342C1F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CEB4383-0C65-41BE-A1E2-31DA342C1F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2163974-D78D-4757-A96D-CB58DFA0B95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2163974-D78D-4757-A96D-CB58DFA0B95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2163974-D78D-4757-A96D-CB58DFA0B95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2163974-D78D-4757-A96D-CB58DFA0B95A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
