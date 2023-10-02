@@ -21,6 +21,14 @@ jobs:
 
       - name: build App
         run: dotnet build -c Release 
+
       - name: Run Automation Tests
         run: dotnet test -c Release --no-build
+
+      - name: deploy To IIS
+        shell: cmd
+        run: |
+        iisreset /stop
+        xcopy /s /y .\myapp\* C:\PUBLISH\Platinum
+        iisreset /start
 
