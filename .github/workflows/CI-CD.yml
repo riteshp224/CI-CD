@@ -27,7 +27,7 @@ jobs:
 
       - name: Deploy To IIS
         run: |
-            C:\Windows\System32\iisreset.exe /stop
-            xcopy /s /y .\myapp\* C:\PUBLISH\Platinum
-            C:\Windows\System32\iisreset.exe /star
+            C:\\Windows\\System32\\iisreset.exe /stop
+            xcopy /s /y .\myapp\* C:\\PUBLISH\\Platinum
+            C:\\Windows\\System32\\iisreset.exe /star
 
