@@ -26,9 +26,9 @@ jobs:
         run: dotnet test -c Release --no-build
 
       - name: Deploy To IIS
-        shell: cmd
+        shell: powershell
         run: |
-          iisreset /stop
-          xcopy /s /y .\myapp\* C:\PUBLISH\Platinum
-          iisreset /start
+            iisreset /stop
+            xcopy /s /y .\myapp\* C:\PUBLISH\Platinum
+            iisreset /start
 
