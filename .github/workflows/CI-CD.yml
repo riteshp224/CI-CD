@@ -25,9 +25,13 @@ jobs:
       - name: Run Automation Tests
         run: dotnet test -c Release --no-build
 
-      - name: Deploy To IIS
-        run: |
-            C:\\Windows\\System32\\iisreset.exe /stop
-            xcopy /s /y .\myapp\* C:\\PUBLISH\\Platinum
-            C:\\Windows\\System32\\iisreset.exe /star
+      - name: IIS Deploy
+        uses: ChristopheLav/iis-deploy@v1.0.0
+        with:
+                  website-name: 'SRApp'
+                  msdeploy-service-url: 'http://182.70.118.201/:53258/'
+                  msdeploy-username: 'Team5'
+                  msdeploy-password: 'Developer@951#'
+                  source-path: ${{ github.workspace }}
+            
 
